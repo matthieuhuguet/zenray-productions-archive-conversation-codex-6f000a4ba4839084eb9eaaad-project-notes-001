@@ -1,0 +1,139 @@
+# conversation-codex-6f000a4ba4839084eb9eaaad : project feedback, append only (19 October 2026, 17:47:49 +0200)
+
+## 19 October 2026, 17:47:49 +0200 : Log
+
+<!-- feedback-event:cd5d20a9645494c06a608fe1b1aa64f6aff486e705e58f951abb30188373ea24 (19 October 2026, 17:47:49 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: log. (19 October 2026, 17:47:49 +0200)
+
+> Project initialized: Mac memory and lightweight clipboard. Workshop: /Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad. (19 October 2026, 17:47:49 +0200)
+
+## 19 October 2026, 17:41:17 +0200 : Prompt
+
+<!-- feedback-event:7058e250c23ad34bac1f1de8fbcc891ad75d343427224bd49d3be25869de3a8b (19 October 2026, 17:41:17 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: prompt. (19 October 2026, 17:41:17 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:41:17 +0200)
+
+> Identifie les apps qui prennent de la ressource en mémoire vive et ensuite je déterminerai avec ma validation s'il faut les supprimer, les désinstaller proprement et ou instaurer des politiques de limite de mémoire. car on a que 48 gb de ram sur le mac Peut-être qu'on peut aussi ajouter de la virtual memory via le disque dur. ultra rapide ssd a 10 gb/s (19 October 2026, 17:41:17 +0200)
+>
+> pour l'instant dresse une liste attend ma validation (19 October 2026, 17:41:17 +0200)
+
+## 19 October 2026, 17:42:17 +0200 : Iteration
+
+<!-- feedback-event:b71315c612902f31c7e8139101b0f7f94ffaec3b58b0898c86531cffb43899b1 (19 October 2026, 17:42:17 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: iteration. (19 October 2026, 17:42:17 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:42:17 +0200)
+
+> Relevé du **19 October 2026 à 17 h 42**, avec les processus auxiliaires regroupés par application. Les valeurs sont approximatives et incluent la mémoire compressée attribuée aux applications. (19 October 2026, 17:42:17 +0200)
+>
+> | Application | Mémoire utilisée | Précision | (19 October 2026, 17:42:17 +0200)
+> |---|---:|---| (19 October 2026, 17:42:17 +0200)
+> | **Houdini FX** | **10 Go** | Premier consommateur | (19 October 2026, 17:42:17 +0200)
+> | **ChatGPT / Codex** | **3,65 Go** | Interface et outils associés | (19 October 2026, 17:42:17 +0200)
+> | **Google Chrome** | **2,80 Go** | 24 processus | (19 October 2026, 17:42:17 +0200)
+> | **Claude Desktop** | **2,46 Go** | Application et auxiliaires | (19 October 2026, 17:42:17 +0200)
+> | **Spotify** | **1,52 Go** | 8 processus | (19 October 2026, 17:42:17 +0200)
+> | WindowServer | 1,35 Go | Affichage des fenêtres de macOS | (19 October 2026, 17:42:17 +0200)
+> | Finder | 1,09 Go | Gestion des fichiers | (19 October 2026, 17:42:17 +0200)
+> | **Hermes** | **1,06 Go** | Processus Node associés | (19 October 2026, 17:42:17 +0200)
+> | **Claude Code** | **1 Go** | Distinct de Claude Desktop | (19 October 2026, 17:42:17 +0200)
+> | WD Discovery | 0,54 Go | 8 processus | (19 October 2026, 17:42:17 +0200)
+> | Maccy | 0,46 Go | Historique du presse-papiers | (19 October 2026, 17:42:17 +0200)
+> | Services d’IA Apple | 0,42 Go | Deux processus | (19 October 2026, 17:42:17 +0200)
+> | ZenRay Assets | 0,33 Go | Service actif | (19 October 2026, 17:42:17 +0200)
+> | Malwarebytes | 0,23 Go | Protection et auxiliaires | (19 October 2026, 17:42:17 +0200)
+> | WhatsApp | 0,22 Go | Application | (19 October 2026, 17:42:17 +0200)
+> | Siri AI | 0,18 Go | Application | (19 October 2026, 17:42:17 +0200)
+> | ZenRayCloud | 0,14 Go | 4 processus | (19 October 2026, 17:42:17 +0200)
+>
+> Les relevés globaux fluctuent entre **42 et 45 Go occupés sur 48 Go**, dont environ **8 Go de mémoire compressée**. Ce total comprend aussi macOS et ses caches ; il ne signifie pas, à lui seul, que le Mac manque de mémoire. (19 October 2026, 17:42:17 +0200)
+>
+> **Le SSD sert déjà de mémoire virtuelle** : 2 Go de swap sont alloués, dont environ **694 Mo utilisés**. Environ **302 Go restent disponibles sur le disque**. Apple confirme que le swap utilise le disque de démarrage comme appoint à la RAM. Le débit de 10 Go/s évoqué n’a pas été mesuré ici. [Documentation Apple](https://support.apple.com/en-lamr/guide/activity-monitor/actmntr1004/mac) (19 October 2026, 17:42:17 +0200)
+>
+> **J’attends ta validation pour toute intervention.** (19 October 2026, 17:42:17 +0200)
+>
+> | Ce que tu voulais | État | Comment je le sais | (19 October 2026, 17:42:17 +0200)
+> |---|---|---| (19 October 2026, 17:42:17 +0200)
+> | Lister les apps gourmandes | Fait | Mesures système et regroupement des processus | (19 October 2026, 17:42:17 +0200)
+> | Attendre avant de modifier | Respecté | Aucune fermeture, désinstallation ou limite appliquée | (19 October 2026, 17:42:17 +0200)
+
+## 19 October 2026, 17:44:08 +0200 : Prompt
+
+<!-- feedback-event:2da3a0e667827a2e823f23d9bcd6f0566c31b856b5f7c6efeb7d8e443e3c1a7c (19 October 2026, 17:44:08 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: prompt. (19 October 2026, 17:44:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:44:08 +0200)
+
+> désinstalle pas mais assure toi que Hermes utilise plus de mémoire : Hermes ne doit pas être login etc et ne plus prendre de ram ...  (19 October 2026, 17:44:08 +0200)
+> Siri AI (19 October 2026, 17:44:08 +0200)
+> Services d’IA Apple (19 October 2026, 17:44:08 +0200)
+> WD Discovery (19 October 2026, 17:44:08 +0200)
+> tout ces 4 services je ne veux plus qu'il me prenne de la ram ... désactive les au login et kill les maintenant moi je les lance jamais (19 October 2026, 17:44:08 +0200)
+
+## 19 October 2026, 17:44:43 +0200 : Prompt
+
+<!-- feedback-event:2926c5a1312f31f184cd97fc9c24992f636fb878bf57aeb6c95c2031e79abb7b (19 October 2026, 17:44:43 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: prompt. (19 October 2026, 17:44:43 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:44:43 +0200)
+
+> <send_user_message_question_reply> (19 October 2026, 17:44:43 +0200)
+> [{"questionItemId":"[\"request_user_input_async\",\"call_601b5ab64d0846678250bf861aff8ab9\",0]","question":"Les processus classés « Hermes » font réellement tourner ZenRay Assets, son serveur local et ZenRay Freelance. Veux-tu aussi arrêter ces services et désactiver leur démarrage automatique ?","answer":"Conserver ZenRay Assets et Freelance"}] (19 October 2026, 17:44:43 +0200)
+> </send_user_message_question_reply> (19 October 2026, 17:44:43 +0200)
+
+## 19 October 2026, 17:45:41 +0200 : Iteration
+
+<!-- feedback-event:ada1024102279c5fbdb0192ee0ac0479fa2281b49e9a252ff07ac633ca49448e (19 October 2026, 17:45:41 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: iteration. (19 October 2026, 17:45:41 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:45:41 +0200)
+
+> **Siri AI et WD Discovery sont arrêtés et désactivés au démarrage. Rien n’est désinstallé.** (19 October 2026, 17:45:41 +0200)
+>
+> Les deux processus d’IA Apple restent actifs : macOS refuse leur arrêt sans authentification administrateur. Pour terminer, exécute dans Terminal ces commandes, qui désactivent aussi le gestionnaire partagé des modèles d’IA locaux : (19 October 2026, 17:45:41 +0200)
+>
+> ```sh (19 October 2026, 17:45:41 +0200)
+> sudo launchctl disable system/com.apple.modelmanagerd (19 October 2026, 17:45:41 +0200)
+> sudo launchctl bootout system/com.apple.modelmanagerd (19 October 2026, 17:45:41 +0200)
+> sudo pkill -TERM -x TGOnDeviceInferenceProviderService (19 October 2026, 17:45:41 +0200)
+> ``` (19 October 2026, 17:45:41 +0200)
+>
+> Ne communique pas ton mot de passe ici. Leur disparition devra ensuite être vérifiée. (19 October 2026, 17:45:41 +0200)
+>
+> | Service | État | Preuve | (19 October 2026, 17:45:41 +0200)
+> |---|---|---| (19 October 2026, 17:45:41 +0200)
+> | Hermes | Conservé | ZenRay Assets et Freelance maintenus selon ton choix | (19 October 2026, 17:45:41 +0200)
+> | Siri AI | Désactivé | Processus absent, deux agents de démarrage désactivés | (19 October 2026, 17:45:41 +0200)
+> | Services d’IA Apple | Bloqué | Deux processus restent actifs ; accès administrateur requis | (19 October 2026, 17:45:41 +0200)
+> | WD Discovery | Désactivé | Application et auxiliaires absents, deux agents désactivés | (19 October 2026, 17:45:41 +0200)
+
+## 19 October 2026, 17:47:27 +0200 : Prompt
+
+<!-- feedback-event:7ed33713cfa5201d8910e0b687d5ad3aa1a70c32c8efe31ab74db9112d71cec4 (19 October 2026, 17:47:27 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: prompt. (19 October 2026, 17:47:27 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:47:27 +0200)
+
+> Maccy	490,8 MB	6	448	1186	zenray	0 bytes	0 bytes	0	0	0,0	1:47,15	2	Apple	0,0	18,00	0 bytes	0 bytes	0 bytes	No	Yes	No	(null)	No	0 bytes	0 bytes	-	0 bytes	0 bytes	No	(null)	 (19 October 2026, 17:47:27 +0200)
+> Massive prend trop de mémoire. Il faudrait que tu essaies de coder exactement la même application, mais en beaucoup moins d'espace. a la manière de picker color ... Par contre j'ai plus ma barre de settings command space ? tu as du le désactiver ... (19 October 2026, 17:47:27 +0200)
+
+## 19 October 2026, 17:57:45 +0200 : Iteration
+
+<!-- feedback-event:c6043fd30ace4f50189947abbb5b1e83b72f1ea7cf7120735e45a1b031091510 (19 October 2026, 17:57:45 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: iteration. (19 October 2026, 17:57:45 +0200)
+- Source: checkpoint:codex:01a154d2-fe4e-7183-a7ec-0172b2eb4323. (19 October 2026, 17:57:45 +0200)
+
+> Spotlight restored by reenabling com.apple.campo, visually verified, Siri remains disabled. Independent ZenRay Clipboard fork of Maccy 2.6.1 built and installed; source commit 182d3d3. Fifty imported entries and every live clipboard payload match original by SHA256; original Maccy and database preserved. Search and copy verified, memory settings visible, source retention test fails upstream and passes optimized. Initial trial measured 88 to 98 MiB after settling versus original pre-switch 446 MiB and user reading 490.8 MB; first panel transiently reached 297 MiB. Sustained saving and complete function parity not yet established. Startup replacement not configured. Previous broad modelmanagerd disabling advice withdrawn pending shared-service review. Next: user trial, then compare sustained memory and decide startup replacement. (19 October 2026, 17:57:45 +0200)
+
+## 19 October 2026, 17:58:10 +0200 : Iteration
+
+<!-- feedback-event:d52ca99d18c2870e61bb5775bc2953629ac5e959228999355ba35ba10769971f (19 October 2026, 17:58:10 +0200) -->
+- Project: conversation-codex-6f000a4ba4839084eb9eaaad; kind: iteration. (19 October 2026, 17:58:10 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/19/rollout-2026-10-19T17-41-16-01a154d2-fe4e-7183-a7ec-0172b2eb4323.jsonl. (19 October 2026, 17:58:10 +0200)
+
+> **Commande + Espace est réparé.** Mon arrêt du processus partagé avec Siri avait aussi coupé Spotlight ; je l’ai rétabli en laissant Siri désactivé. (19 October 2026, 17:58:10 +0200)
+>
+> [ZenRay Clipboard](/Applications/ZenRayClipboard.app), une copie optimisée de Maccy, est maintenant active pour essai. Elle mesure environ **60 Mo au repos et 100 Mo après recherche**, contre tes 490,8 Mo. Le gain après plusieurs heures reste à vérifier. (19 October 2026, 17:58:10 +0200)
+>
+> Les réglages mémoire sont dans **Preferences → Advanced → Memory**. Maccy reste installé et son démarrage automatique reste inchangé. (19 October 2026, 17:58:10 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (19 October 2026, 17:58:10 +0200)
+> |---|---|---| (19 October 2026, 17:58:10 +0200)
+> | Retrouver Commande + Espace | Réparé | Barre Spotlight vérifiée à l’écran | (19 October 2026, 17:58:10 +0200)
+> | Un Maccy moins gourmand | Essai | Recherche et copie fonctionnent ; mémoire mesurée | (19 October 2026, 17:58:10 +0200)
+> | Garder ton historique | Préservé | 50 entrées, contenus identiques vérifiés | (19 October 2026, 17:58:10 +0200)
