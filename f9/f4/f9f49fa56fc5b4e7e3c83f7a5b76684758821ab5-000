@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "conversation-codex-6f000a4ba4839084eb9eaaad",
- "scannedAt": "2026-11-04T12:17:32.022Z",
+ "scannedAt": "2026-11-04T18:18:23.296Z",
  "conversations": [
   {
    "projectId": "conversation-codex-6f000a4ba4839084eb9eaaad",
@@ -14,8 +14,8 @@
    "conversationId": "gemini:4d5dab85-4421-4a2b-a8cb-383e51e1bcc4",
    "provider": "gemini",
    "sessionId": "4d5dab85-4421-4a2b-a8cb-383e51e1bcc4",
-   "title": "Conversation Gemini 4d5dab85",
-   "updatedAt": "2026-11-04T00:38:57.280Z",
+   "title": "Maccy chat chien ZenRayMaccy Ce qui serait cool via ma scie qui copie mon clipboard, c'est d'avoir un raccourci qui me permet d'avoir qui me",
+   "updatedAt": "2026-11-04T00:38:04.209373+00:00",
    "bytes": 12648448,
    "boundProject": null
   },
